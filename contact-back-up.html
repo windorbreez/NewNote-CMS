@@ -1,0 +1,415 @@
+﻿<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="not-ie" lang="en">
+<!--<![endif]-->
+<head>
+    <!-- Basic Meta Tags -->
+    <meta charset="utf-8">
+    <title>Newnote Financial | Contact</title>
+    <meta name="description" content="d">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--[if (gte IE 9)|!(IE)]>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+  <![endif]-->
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,600,700,300,800' rel='stylesheet' type='text/css'>
+
+    <link href="img/favicon.png" rel="icon" type="image/png">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/settings.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    <link href="css/bootstrap-override.css" rel="stylesheet">
+
+    <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    <script>
+        function initialize() {
+            var map_canvas = document.getElementById('map_canvas');
+            var myLatlng = new google.maps.LatLng(49.284878, -123.115373);
+
+            var map_options = {
+                zoom: 16,
+                scrollwheel: false,
+                navigationControl: false,
+                mapTypeControl: false,
+                scaleControl: false,
+                draggable: false,
+                disableDefaultUI: true,
+                center: myLatlng
+
+
+            }
+            var map = new google.maps.Map(map_canvas, map_options);
+
+            var contentString = '<div id="content">' +
+                '<div id="siteNotice">' +
+                '</div>' +
+                '<h4 id="firstHeading" class="firstHeading">New Note Financial</h4>' +
+                '<div id="bodyContent">' +
+                '<p>700 West Pender Street, Suite #709, <br> ' +
+
+                    'Vancouver,BC, <br>  ' +
+                    '7V6C1G8 </p>' +
+                    '<p></p> ' +
+                    '<p>Tel: (+1) 604-229-0480<br> ' +
+                    'Fax: (+1) 604-685-3833 <br> ' +
+                    'Email: <a href="mailto:support@newnote.com">support@newnote.com</a></p> ' +
+
+                    '</div>' +
+                '</div>';
+
+            var infowindow = new google.maps.InfoWindow({
+                content: contentString
+            });
+
+            var marker = new google.maps.Marker({
+                position: myLatlng,
+                map: map,
+                title: 'New Note Financial'
+            });
+
+            google.maps.event.addListener(marker, 'click', function () {
+                infowindow.open(map, marker);
+            });
+        }
+
+        google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+
+
+
+    <!--HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<style>.page-banner {
+         background:#0073bd !important;}</style>	
+    <![endif]-->
+
+
+</head>
+<body>
+
+    <header id="home">
+        <nav class="navbar navbar-fixed-top" role="navigation">
+            <div class="navbar-inner">
+                <div class="container">
+                    <!-- Logo -->
+                    <a href="index.html" title="">
+                        <img src="img/newnotefinancial-logo.png" alt="NEWNOTE FINANCIAL" class="logo"></a>
+                    <!-- Menu -->
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html" title="">Home</a>
+
+
+                        </li>
+
+                        <li><a href="about.html" title="">Team</a></li>
+                        <li>
+                            <a href="solutions.html" title="">Solutions</a>
+                            <ul>
+                                <li><a href="datacenter.html" title="">Data Center</a></li>
+                                <li><a href="abm.html" title="">ABM</a></li>
+                                <li><a href="puretrade-exchange.html" title="">Puretrade Exchange</a></li>
+                                <li><a href="cryptoaid.html" title="">CryptoAid</a></li>
+                                <li><a href="giftcard.html" title="">Gift Card</a></li>
+                                <li><a href="#" title="">Terrahasher</a></li>
+                                <li><a href="vanitycoin.html" title="">Vanity Coin</a></li>
+
+
+                            </ul>
+
+                        </li>
+                        <li>
+                            <a href="investors.html" title="">Investors</a>
+
+
+                        </li>
+                        <li class="active"><a href="contact.html" title="">Contact</a></li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="page-banner">
+        <div class="container">
+            <h2>Contact New Note Financial</h2>
+            <ul class="stock-quote">
+                <a href="https://www.google.ca/finance?q=CNSX%3AWR&ei=01M7U4juEof9igLI3QE" target="_blank">
+                    <li id="stock-tick"></li>
+                </a>
+            </ul>
+
+            <div style="clear: both"></div>
+        </div>
+    </div>
+
+
+
+    <div id="map_canvas"></div>
+
+    <div class="container">
+
+        <div class="row space30"></div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="h2-container">
+                    <h2>Contact New Note Financial</h2>
+                    <div class="h2-line"></div>
+                    <div class="h2-line-left"></div>
+                    <div class="h2-line-right"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row space50"></div>
+
+        <div class="row">
+
+
+            <div class="col-md-3 contact-sidebar ">
+
+
+                <div class="col-sm-12 col-sx-12">
+                    <ul class="list-b">
+                        <li class="contact-name"><i class="fa fa-user"></i>Paul Dickson</li>
+                        <li class="contact-position"><i class="fa fa-certificate"></i>CEO</li>
+                        <li><i class="fa fa-envelope-o"></i><a href="mailto:pdickson@newnotefinancial.com">pdickson@newnotefinancial.com</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-sm-12 col-sx-12">
+                    <ul class="list-b">
+                        <li class="contact-name"><i class="fa fa-user"></i>Brian Gusko</li>
+                        <li class="contact-position"><i class="fa fa-certificate"></i>VP of Retail</li>
+                        <li><i class="fa fa-envelope-o"></i><a href="mailto:bgusko@newnotefinancial.com">bgusko@newnotefinancial.com</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-sm-12 col-sx-12">
+                    <ul class="list-b">
+                        <li class="contact-name"><i class="fa fa-user"></i>Hani Rayess</li>
+                        <li class="contact-position"><i class="fa fa-certificate"></i>VP of Marketing</li>
+                        <li><i class="fa fa-envelope-o"></i><a href="mailto:hrayess@newnotefinancial.com">hrayess@newnotefinancial.com</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-sm-12 col-sx-12">
+                    <ul class="list-b">
+                        <li class="contact-name"><i class="fa fa-user"></i>Brian Onn</li>
+                        <li class="contact-position"><i class="fa fa-certificate"></i>Sr. Software Developer</li>
+                        <li><i class="fa fa-envelope-o"></i><a href="mailto:bonn@newnotefinancial.com">bonn@newnotefinancial.com</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-sm-12 col-sx-12">
+                    <ul class="list-b">
+                        <li class="contact-name"><i class="fa fa-user"></i>Bryan Hellard </li>
+                        <li class="contact-position"><i class="fa fa-certificate"></i>Bitcoin Mining Technician</li>
+                        <li><i class="fa fa-envelope-o"></i><a href="mailto:bhellard@newnotefinancial.com">bhellard@newnotefinancial.com</a></li>
+                    </ul>
+                </div>
+
+
+
+
+
+            </div>
+
+
+
+
+            <div class="col-md-9">
+
+
+                <div class="subscribe">
+                    <div class="col-md-8">
+                        <h2>Subscribe to the Newnote Financial Newsletter</h2>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="text-center"><a target="_blank" href="#" class="btn-qubico"><i class="fa fa-pencil-square"></i>Subscribe Now</a></div>
+                    </div>
+                </div>
+
+
+
+                <form class="contactForm" method="post" action="contact.php">
+                    <div class="col-lg-6">
+                        <input type="text" name="Name" placeholder="Your name" style="margin-right: 2%;">
+                        <input type="text" name="Email" placeholder="Your email">
+                        <input type="text" name="Number" placeholder="Contact Number" style="margin-right: 2%;">
+                        <input type="text" name="Company" placeholder="Company">
+                        <input type="text" name="Subject" placeholder="Subject" style="width: 100%">
+                        <input name="captcha" placeholder="Enter Captcha Here" type="text"><img class="captcha-img" src="captcha.php" /><br>
+                    </div>
+
+
+
+                    <div class="col-lg-6">
+                        <textarea name="Message" placeholder="Your message"></textarea>
+                        <input type="submit" name="submit" value="SEND" class="button red">
+                    </div>
+                </form>
+
+
+
+
+
+            </div>
+
+        </div>
+
+        <div class="row space40"></div>
+
+
+
+        <div class="row space20"></div>
+
+
+        <div class="row space20"></div>
+    </div>
+    <div id="parallax-one" class="parallax" style="background-image: url(img/parallax/01.jpg);">
+        <div class="parallax-text-container">
+            <div class="parallax-text-item">
+                <h2>Contact Us For Amazing Opportunities</h2>
+                <h3>Present your business at the highest level</h3>
+            </div>
+        </div>
+    </div>
+
+    <!-- Parallax End -->
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+
+            <div class="row space10"></div>
+
+
+
+
+
+            <div class="row">
+
+
+                <div class="col-md-4 col-sm-12 col-xs-12">
+                    <img src="img/logo-footer.png" class="logo-footer" alt="">
+
+
+                    <p>
+                        We started with a vision driven by the passion to make a positive change. We understand the need to develop a business model that can be both profitable and give back where it's needed most. We have the creativity, forthought and team in place to make this happen now.
+              
+                    </p>
+
+                </div>
+
+                <div class="col-md-2 col-sm-12 col-xs-12">
+                    <h4>Investors</h4>
+                    <ul>
+                        <li><a href="index.html" title="">&raquo; Home</a></li>
+                        <li><a href="about.html" title="">&raquo; Team</a></li>
+                        <li><a href="solutions.html" title="">&raquo; Soultions</a></li>
+                        <li><a href="investors.html" title="">&raquo; Investors </a></li>
+                        <li><a href="contact.html" title="">&raquo; Contact</a></li>
+
+
+
+
+                    </ul>
+
+
+
+                </div>
+
+                <div class="col-md-2 col-sm-12 col-xs-12">
+                    <h4>Address</h4>
+
+                    <div class="footer-column">
+                        <i class="fa fa-building-o "></i>
+                        <p>
+                            NewNote Financial.<br>
+                            Suite #709, 
+                            <br>
+                            700 West Pender St,
+                            <br>
+                            Vancouver,BC, 
+                            <br>
+                            V6C1G8
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12 col-xs-12">
+                    <h4>Contact</h4>
+                    <div class="footer-column">
+                        <i class="fa fa-phone"></i>
+                        <p>
+                            direct: 604-229-0480<br>
+                            fax: 604-685-3833 
+                        </p>
+                    </div>
+                    <div class="footer-column">
+                        <i class="fa fa-envelope"></i>
+                        <p>
+                            <a href="mailto:info@newnotefinancial.com" rel="external">info@newnotefinancial.com</a><br>
+                            <a href="mailto:support@newnotefinancial.com" rel="external">support@newnotefinancial.com</a>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="space20"></div>
+            </div>
+
+        </div>
+
+        <div class="copyright">
+            <div class="container">
+
+                <div class="row space30"></div>
+
+                <div class="row">
+                    <div class="col-md-12 center">
+                        &copy; 2014  Newnote Financial. All Rights Reserved. Designed by <a href="http://www.webilize.com" rel="external" class="entiri">Webilize</a>
+                    </div>
+                </div>
+
+                <div class="row space30"></div>
+
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Footer End -->
+
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.migrate.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jquery.easing.js"></script>
+    <!--<script type="text/javascript" src="js/retina.js"></script> -->
+    <script type="text/javascript" src="js/respond.min.js"></script>
+    <script type="text/javascript" src="js/jquery.meanmenu.2.0.min.js"></script>
+    <script type="text/javascript" src="js/jquery.parallax-1.1.3.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+
+
+    <script language="JavaScript">
+        // Code for validating the form
+        // Visit http://www.javascript-coder.com/html-form/javascript-form-validation.phtml
+        // for details
+        var frmvalidator = new Validator("myemailform");
+        frmvalidator.addValidation("name", "req", "Please provide your name");
+        frmvalidator.addValidation("email", "req", "Please provide your email");
+        frmvalidator.addValidation("email", "email", "Please enter a valid email address");
+    </script>
+
+    <script type="text/javascript" src="js/cors/cross-domain-ajax/jquery.xdomainajax.js"></script>
+    <script type="text/javascript" src="js/stock.js"></script>
+</body>
+</html>
+
